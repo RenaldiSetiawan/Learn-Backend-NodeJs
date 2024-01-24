@@ -1,0 +1,4 @@
+Untuk membuat proyek JavaScript, silakan buka Terminal pada VSCode
+    npm init : NPM alias Node Package Manager merupakan JavaScript Package Manager bawaan dari Node.js. NPM alias Node Package Manager merupakan JavaScript Package Manager bawaan dari Node.js. 
+    Jika nilai yang ditampilkan sudah sesuai, langsung saja tekan tombol Enter. Berkas package.json pun telah berhasil dibuat
+

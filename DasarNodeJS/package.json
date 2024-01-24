@@ -1,0 +1,15 @@
+{
+  "name": "dasarnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "4.ProcessObject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 4.ProcessObject.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2"
+  }
+}

@@ -1,0 +1,21 @@
+Menjalankan JavaScript Menggunakan Node.js
+Terdapat dua cara dalam menjalankan kode JavaScript menggunakan Node.js
+    1.  Node REPL
+    2.  mengeksekusi berkas berekstensi JS
+
+Node.js REPL
+    REPL atau Read-Eval-Print Loop, berfungsi untuk membaca kode JavaScript
+    mengevaluasi kode tersebut, kemudian mencetak hasil evaluasinya ke console
+
+1.  REPL merupakan fitur bawaan dari Node.js. Anda bisa mengaksesnya menggunakan perintah node pada Terminal
+    Tanda > pada Terminal menunjukan Anda sudah masuk ke mode Node REPL. 
+2.  Sekarang, Anda bisa menuliskan kode JavaScript dan mengeksekusinya dengan menggunakan enter
+    console.log('Hello');
+3.  Untuk menggunakan mode editor, Anda bisa tuliskan perintah .editor
+    Fungsi untuk mengeksekusi kode digantikan dengan kombinasi tombol CTRL+D
+    Untuk keluar dari mode editor, gunakan kombinasi CTRL+C
+
+Running JavaScript File using Node.js
+1.  Di dalam berkas Hello.js, Anda bisa menuliskan kode JavaScript sesuka Anda. Pastikan kode yang Anda tulis menampilkan nilai di console
+2.  Untuk mengeksekusi kode tersebut, silakan buka kembali Terminal. Kemudian, tuliskan perintah:
+    node Hello.js / node namafile.js

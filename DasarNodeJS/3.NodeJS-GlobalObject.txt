@@ -1,0 +1,24 @@
+JavaScript hanyalah bahasa pemrograman, Ia tidak mengetahui apakah Anda menjalankannya menggunakan browser atau Node.js.
+Di Node.js pun demikian, ia menambahkan objek global guna memberikan fungsionalitas lebih pada JavaScript
+
+Objek window pada browser dan objek global pada Node.js merupakan Global Object.
+Seluruh fungsi atau properti yang menjadi member dari global object dapat diakses di mana saja alias memiliki cakupan global.
+
+Pada Node.js Anda bisa melihat apa saja yang termasuk member dari global objek dengan menggunakan kode berikut:
+    Object.getOwnPropertyNames(global);
+    Coba jalankan pada REPL. Ia akan mengembalikan semua member-nya
+
+Dilansir dari website Node.js, sebenarnya mereka hanya menambahkan beberapa objek saja
+Objek tersebut dinamakan dengan ‘true globals’
+    >   global : Global namespace. Member apa pun di dalam object ini dapat diakses pada cakupan global
+    >   process : menyediakan interaksi dengan proses Node.js yang berjalan
+    >   console : menyediakan berbagai fungsionalitas STDIO
+    >   setTimeout, clearTimeout, setInterval, clearInterval
+
+Karena pada Node.js semua berkas JavaScript adalah module
+jadi pseudo-globals dapat diakses layaknya global objek
+berikut daftarnya:
+    >   module : digunakan untuk sistem modularisasi pada Node.js.
+    >   __filename : keyword untuk mendapatkan lokasi berkas JavaScript yang dieksekusi
+    >   __dirname : keyword untuk mendapatkan root directory dari berkas JavaScript yang dieksekusi
+    >   require : digunakan untuk mengimpor module JavaScript
