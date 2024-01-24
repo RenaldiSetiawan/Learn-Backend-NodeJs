@@ -1,0 +1,21 @@
+URL, Path, atau Endpoint merupakan salah satu bagian terpenting yang harus diperhatikan ketika membangun REST API
+
+Dengan merancang endpoint yang baik, penggunaan API akan lebih mudah dipahami
+
+Dalam merancang endpoint, ikutilah aturan umum atau convention agar penggunaan API kita memiliki standar yang diharapkan oleh banyak developer
+
+Gunakan Kata Benda daripada Kata Kerja pada Endpoint Path
+    Hindari penggunaan kata kerja dalam menetapkan nama endpoint (titik akhir path). 
+    Contohnya /getArticles atau /addArticles. 
+    Karena aksi dapat ditentukan secara jelas melalui HTTP Verb, 
+    kita tidak perlu lagi menambahkan kata kerja di endpoint.
+    Dengan adanya HTTP verbs Anda cukup memberikan endpoint GET /articles untuk mendapatkan data artikel atau POST /articles untuk menambahkan artikel
+
+Gunakan Kata Jamak pada Endpoint untuk Resource Collection
+    Gunakan path parameter untuk mendapatkan data spesifik. 
+    Endpoint /articles/:id merupakan contoh yang baik untuk mendapatkan artikel secara spesifik berdasarkan id
+
+Gunakan Endpoint berantai untuk resource yang memiliki hirarki/relasi
+    untuk mendapatkan daftar komentar dari sebuah artikel, endpoint GET /articles/:id/comments merupakan contoh yang tepat
+
+Tidak hanya GET, prinsip ini juga cocok diterapkan pada HTTP verb POST, PUT, maupun DELETE

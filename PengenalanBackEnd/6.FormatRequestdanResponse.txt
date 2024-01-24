@@ -1,0 +1,6 @@
+REST API seringnya menggunakan JavaScript Object Notation atau JSON sebagai format data baik itu pada request ataupun response
+
+JSON merupakan salah satu format standar dalam transaksi data
+
+Agar REST API selalu merespons dengan Format JSON, pastikan setiap respons terdapat properti
+    > Content-Type dengan nilai application/json

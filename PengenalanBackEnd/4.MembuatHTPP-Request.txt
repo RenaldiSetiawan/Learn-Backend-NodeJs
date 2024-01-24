@@ -1,0 +1,15 @@
+cURL atau Client URL merupakan software berbasis command line yang dapat melakukan transaksi data melalui beberapa protokol internet, salah satunya HTTP/S\
+
+cURL dapat diakses secara langsung tanpa proses install melalui Terminal (Linux dan Mac) atau CMD (Windows)
+
+curl -X GET https://alamt-url -i
+
+curl:    merupakan perintah untuk menggunakan program cURL pada Terminal atau CMD
+-X GET:  menetapkan HTTP menthod/verb yang digunakan. seperi GET mendapat semua data
+https://alamt-url : merupakan alamat request yang dituju
+-i : memberikan informasi detail terhadap response yang diberikan (HTTP response headers)
+
+curl -X POST -H "Content-Type: application/json" -d "{\"name\": \"Kopi Tubruk\"}" https://url -i
+-X POST : merequest atau membuat sebuah data
+-H “Content-Type: application/json” : Menetapkan nilai “Content-Type: application/json” pada Header request. Fungsinya untuk memberitahu server bahwa kita melampirkan data dalam bentuk JSON.
+-d <JSON Content> : merupakan data yang dilampirkan pada request. Data ini berformat JSON

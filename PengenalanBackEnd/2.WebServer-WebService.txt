@@ -1,0 +1,4 @@
+Web Server : Server yang dapat menjalankan program dan dapat diakses melalui internet atau intranet
+Web Service : Program yang dijalankan di web server agar kebutuhan bisnis terpenuhi
+
+Web service berjalan di dalam web server sehingga ia dapat diakses melalui internet. Melalui web service inilah aplikasi Front-End (client) dan Back-End dapat bertransaksi

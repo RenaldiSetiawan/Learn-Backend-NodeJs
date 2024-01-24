@@ -1,0 +1,10 @@
+Server sistem yang dapat menyediakan sumber daya berupa data, layanan, program untuk disajikan pada komputer lain
+Server bukan lah sebuah perangkat keras, server merupakan sistem yang dapat membuat komputer dapat melayani sebuah permintaan dari perangkata lain
+
+Beberapa tipe server sesuai dengan layananL:
+    > Filse Server:        Melayani penyimpanan dan pendistribusian berkas
+    > Aapplication Server: Melayani hosting sebuah program
+    > DNS Server:          Mengubah nama domain (contoh doaminsitus.com) ke dalam IP Address (75.2.21.170)
+    > Web Server:          Melayani hosting sebuah aplikasi yang dapat di akses client melalui internet
+    > Database Server:     Melayani Penyimpanan dan pendistribusian data terstuktur
+

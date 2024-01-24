@@ -1,0 +1,22 @@
+Dalam mengembangkan web service perlu menetapkan arsitektur yang hendak diadaptasi
+
+client dan server lebih mudah dalam berkomunikasi
+
+Salah satu arsitektur web service yang banyak digunakan saat ini adalah REST
+
+REST atau REpresentational State Transfer : arsitektur yang dapat diadaptasi ketika membangun web service
+
+REST API
+RESTful merupakan sebutan untuk web services yang menerapkan arsitektur REST
+REST juga merupakan API (application program interface) karena ia digunakan untuk menjembatani antara sistem yang berbeda (client dan server)
+
+API atau Application Program Interface merupakan antarmuka yang menjadi perantara antara sistem aplikasi yang berbeda
+API tak hanya dalam bentuk Web Service, bisa saja berupa SDK (Software Development Kit)
+
+Sifat yang menjadi kunci pada REST API:
+    >   Client-Server : Server harus bisa merespons permintaan yang dilakukan client, baik itu respons berhasil ataupun gagal
+    >   Stateless :  REST API tidak boleh menyimpan keadaan (state) apa pun terkait client
+                    Seluruh state harus tetap disimpan di client
+    >   Cacheable : baiknya REST API menerapkan prinsip cache. Sehingga setiap permintaan tidak melulu mengambil dari database
+    >   Layered : Ketika REST API server memiliki arsitektur yang kompleks, client seharusnya tidak perlu tahu bagaimana server melayaninya
+

@@ -1,0 +1,14 @@
+HTTP/HTTPS merupakan salah satu protokol yang dapat digunakan untuk berinteraksi dengan web server
+
+Protokol tersebut terkenal dengan pola request-response
+
+untuk mendapatkan sesuatu (response) kita perlu melakukan permintaan terlebih dahulu (request)
+
+Request pada HTTP request yang diajukan client harus memiliki informasi-informasi yang cukup agar dapat dieksekusi oleh server, Informasi dapat mengandung
+    >   Request Line:  berisikan method/verb seperti GET (mengambil data) berisikan method/verb seperti GET (mengambil data)
+                       POST (menambahkan/mengirim data)
+                       PUT (memperbaharui data)
+                       DELETE (menghapus data)
+    >   Header:  memuat informasi yang dilampirkan terkait request seperti format dokumen (contoh application/json, text/html, dsb)
+    >   Body (opsional): Mengandung data yang dibutuh kan server. bisa dalam bentuk teks, JSON, dll. Body tidak wajib dilampirkan bila server tidak membutuhkan data apapunBody tidak wajib dilampirkan bila server tidak membutuhkan data apapun
+    
