@@ -1,0 +1,13 @@
+Membangun Web Server menggunakan Hapi
+
+Menyiapkan Project
+    >   membuat proyek baru
+    >   Jalankan perintah : npm init --y
+    >   atur NPM runner pada package.json menjadi seperti ini:
+        "scripts": {
+            "start": "node server.js"
+        }
+    >   buatlah berkas JavaScript baru dengan nama server.js
+        console.log('Halo, kita akan belajar membuat server menggunakan Hapi');
+    >   coba jalankan perintah berikut pada Terminal:
+        npm run start

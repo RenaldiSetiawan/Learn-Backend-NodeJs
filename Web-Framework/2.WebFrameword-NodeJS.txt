@@ -1,0 +1,15 @@
+Web Framework di Node.js
+
+>   Expressjs merupakan web framework tertua dan terpopuler di Node.js saat ini.
+    Framework ini sangat ringan, mudah diintegrasikan dengan aplikasi web front-end, dan penulisan kodenya tidak jauh beda dengan Node.js native
+    Namun karena sifat ringannya tersebut, ia menjadi framework yang unopinionated alias tidak memiliki aturan untuk menggunakannya
+    Express tidak menyediakan struktur atau kerangka kerja yang baku untuk diikuti oleh developer. Sehingga, developer menjadi sulit menentukan seperti apa kode yang optimal
+
+>   Hapi menyediakan environment yang lengkap untuk mengembangkan web server yang kompleks
+    Bila menggunakan Hapi, kita tak perlu tools lain untuk menerapkan layer authentication, tokenize, cors, dan lain sebagainya
+    Kelemahan Hapi adalah abstraksinya yang terlalu jauh dari Node.js native. Kita perlu belajar secara dalam, untuk menguasai framework ini
+    Ketika ingin membangun server yang sederhana, katakanlah untuk mendukung aplikasi front-end di-render di sisi server, express adalah pilihan yang tepat
+    bila Anda ingin membangun web server yang kompleks tanpa membutuhkan effort yang besar, Hapi adalah pilihan yang tepat
+
+> Dokumentasi Express : https://expressjs.com/
+> Dokumentasi Hapi    : https://hapi.dev/tutorials/?lang=en_US
