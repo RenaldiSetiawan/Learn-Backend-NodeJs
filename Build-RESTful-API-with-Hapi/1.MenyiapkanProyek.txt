@@ -1,0 +1,25 @@
+Seperti biasa, mari kita awali dengan membuat proyek baru
+    1.  Buat folder baru dengan nama “bebas” pada C -> javascript-projects (Windows)
+    2.  Buka folder tersebut menggunakan VSCode
+    3.  Buka Terminal proyek dan eksekusi perintah 
+        >   npm init --y
+    4.  Pastikan terdapat berkas package.json
+
+Nodemon
+    dengan tools ini kita tak perlu menjalankan ulang server ketika terjadi perubahan pada berkas JavaScript
+    Nodemon akan mendeteksi perubahan kode JavaScript dan mengeksekusi ulang secara otomatis.
+        1.  Untuk menggunakannya, pasanglah package nodemon pada devDependenciesdengan mengeksekusi perintah
+            >   npm install nodemon --save-dev
+        2.  Untuk memastikan nodemon terpasang pada proyek, Anda bisa memeriksa berkas package.json
+            lebih tepatnya di objek devDependencies
+        3.  Untuk mencoba nodemon, silakan buat berkas JavaScript dulu pada proyek kita dan berikan nama “server.js
+            console.log('Hallo kita akan membuat RESTful API');
+        4.  Kemudian di dalam package.json, buat npm runner script baru untuk menjalankan server.js
+            Menggunakan nodemon
+            >   "scripts": {
+                    "start": "nodemon server.js"
+                }
+        5.  Lalu, jalankan perintah 
+            >   npm run start
+        6.  Nodemon berhasil mengeksekusi server.js dan akan terus mengawasi perubahan kode yang ada
+        
