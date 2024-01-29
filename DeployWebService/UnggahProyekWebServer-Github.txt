@@ -1,0 +1,6 @@
+Mengunggah Proyek Web Server ke Github
+    >   Git merupakan sebuah sistem yang membantu developer dalam melakukan versioning atau source code management terhadap aplikasi yang dikembangkan
+    >   Melalui Git, kita dapat menelusuri perubahan kode, siapa yang melakukan perubahannya, hingga mengelola code versioning (branching)
+    >   Ketahuilah bahwa sistem git ini hanya berjalan di lokal komputer Anda saja
+    >   Agar repository git dapat diakses di mana saja, oleh siapa saja, dan komputer mana saja (termasuk EC2), kita perlu menyimpan repository-nya di internet
+    >   GitHub merupakan salah satu vendor yang bergerak di bidang source code hosting menggunakan teknologi git

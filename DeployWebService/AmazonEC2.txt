@@ -1,0 +1,15 @@
+Amazon Elastic Compute Cloud
+
+>   Amazon Elastic Compute Cloud atau Amazon EC2 merupakan salah satu layanan komputasi elastis di cloud yang ditawarkan oleh AWS (Amazon Web Services)
+
+>   EC2 merupakan sebuah komputer server yang dapat Anda miliki namun tidak dapat Anda lihat fisiknya
+
+>   Sebenarnya, EC2 disimpan di Data Center AWS dengan infrastruktur jaringan yang sangat kuat sehingga server dapat diakses secara global dengan sangat cepat
+
+>   Selain itu, komputer server ini bersifat elastis karena ia dapat menyesuaikan kapasitasnya berdasarkan permintaan dari client
+    Semakin banyak permintaan yang datang, semakin besar pula kapasitas server. Dengan begitu, server Anda tidak akan mengalami down jika tiba-tiba bisnis Anda membeludak
+
+>   EC2 sejatinya adalah virtual komputer atau virtual machine yang dapat diatur spesifikasinya melalui sebuah sistem tanpa harus berupaya dengan perangkat keras
+
+>   Biaya untuk menggunakan Amazon EC2 server (instance) bersifat pay-as-you-go, artinya Anda hanya membayar sesuai dengan pemakaian
+    Jika instance tersebut tidak berjalan, tidak dikenakan tagihan.

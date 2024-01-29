@@ -1,0 +1,15 @@
+Untuk Windows
+    1.  Unduh Git : https://git-scm.com/
+    2.  Download for Windows (versi git mungkin berbeda
+    3.  Setelah proses unduh selesai, silakan buka berkas instalasi. Jika muncul pop up "Do you want to allow this app to make changes to your device", klik Yes
+    4.  Karena kita akan menggunakan Visual Studio Code, pilih Visual Studio Code sebagai default text editor
+    5.  Setelah selesai instal, hapus centang pada seluruh opsi dan Klik tombol finish
+        ->  Launch Git Bash
+        ->  View Release Notes
+    6.  Untuk memastikan git terpasang dengan baik, silakan buka PowerShell/CMD
+        ->  tuliskan perintah, Bila git terpasang, informasi dari versi git yang digunakan akan muncul 
+            git --version
+    7.  kita perlu melakukan konfigurasi dulu sebelum menggunakannya
+        ->  Untuk menetapkan email di git, eksekusi perintah berikut pada PowerShell/CMD/Terminal.
+            git config --global user.name "Your Name"
+git         git config --global user.email "you@example.com"
